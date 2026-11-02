@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oliv66001.github.io/white-world/sitemap.xml
