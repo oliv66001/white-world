@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f7f3">
+  <meta name="description" content="White World, jeu mobile d’infiltration et de réflexion. Traversez 60 étages, fondez-vous dans les murs et libérez votre communauté.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="White World">
+  <meta property="og:title" content="White World — Disparais pour les retrouver">
+  <meta property="og:description" content="Un monde blanc. Un peuple captif. 60 étages à infiltrer sur mobile.">
+  <meta property="og:image" content="https://oliv66001.github.io/white-world/social-card.svg">
+  <title>White World — Un jeu mobile d’infiltration</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="canonical" href="https://oliv66001.github.io/white-world/">
+</head>
+<body>
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="White World, accueil">
+      <svg class="brand-mark" viewBox="0 0 32 36" aria-hidden="true"><path d="m16 2 14 8v16l-14 8L2 26V10Z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m2 10 14 8 14-8M16 18v16" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m9 14 7 4 7-4" fill="none" stroke="#096c65" stroke-width="3"/></svg>
+      <span>WHITE<span>WORLD</span></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-controls="navigation" aria-expanded="false" aria-label="Ouvrir le menu" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="site-nav" id="navigation" aria-label="Navigation principale">
+      <a href="index.html" aria-current="page">Le jeu</a>
+      <a href="privacy.html">Confidentialité</a>
+      <a href="delete-account.html">Vos données</a>
+      <a href="support.html">Support <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>
+<main id="contenu">
+  <section class="container hero" aria-labelledby="hero-title">
+    <div>
+      <p class="eyebrow">White World · Infiltration sur mobile</p>
+      <h1 id="hero-title">Disparais.<br>Pour les<br><em>retrouver.</em></h1>
+      <p class="hero-copy">Ils ont enfermé ton peuple dans une immense tour blanche. Tu es leur dernier espoir. Observe, fonds-toi dans les murs et ouvre-leur un chemin vers la liberté.</p>
+      <div class="button-row"><a class="button" href="#jouer">Découvrir le jeu <span class="button-arrow" aria-hidden="true">↓</span></a><a class="button secondary" href="support.html">Nous contacter <span aria-hidden="true">↗</span></a></div>
+      <p class="release-note">Une aventure pensée pour les commandes tactiles. Les informations de distribution seront ajoutées lorsqu’un lien officiel sera disponible.</p>
+    </div>
+    <figure class="hero-art">
+      <span class="art-label">Une tour. 60 étages.</span>
+      <svg viewBox="0 0 700 700" role="img" aria-labelledby="tower-title tower-desc">
+        <title id="tower-title">La tour blanche, un monde à infiltrer</title>
+        <desc id="tower-desc">Illustration isométrique de salles blanches superposées. Un héros blanc se cache, des gardes noirs, jaunes, rouges et violets surveillent les passages, un captif attend sa libération.</desc>
+        <defs>
+          <radialGradient id="halo"><stop stop-color="#deeee5"/><stop offset="1" stop-color="#f5f7f3" stop-opacity="0"/></radialGradient>
+          <filter id="room-shadow" x="-40%" y="-40%" width="190%" height="200%"><feDropShadow dx="0" dy="20" stdDeviation="17" flood-color="#29483f" flood-opacity=".1"/></filter>
+          <g id="room"><polygon points="0,100 250,220 510,100 510,114 250,235 0,114" fill="#cfdcd5"/><polygon points="0,100 0,20 260,-100 260,-20" fill="#fff" stroke="#d9e3dc"/><polygon points="260,-100 510,20 510,100 260,-20" fill="#e6eee8" stroke="#d1ddd5"/><polygon points="0,100 260,-20 510,100 250,220" fill="#fff" stroke="#d7e1da"/><path d="m65 130 260-121M128 160 388 39M194 190 453 70M66 70l250 121M131 39l250 121M195 10l250 121" stroke="#edf1ec" stroke-width="1"/><path d="m0 20 260-120 250 120" fill="none" stroke="#fff" stroke-width="5"/></g>
+          <g id="cover"><polygon points="0,0 48,-22 93,0 45,22" fill="#fff" stroke="#dae3dc"/><polygon points="0,0 45,22 45,66 0,44" fill="#e3ebe5"/><polygon points="45,22 93,0 93,44 45,66" fill="#cbd9d0"/></g>
+          <g id="pawn"><ellipse cy="1" rx="18" ry="6" fill="#263f34" opacity=".13"/><path d="M-7-24v20M7-24v20" stroke="currentColor" stroke-width="11" stroke-linecap="round"/><path d="M-15-35v15M15-35v15" stroke="currentColor" stroke-width="9" stroke-linecap="round"/><rect x="-11" y="-41" width="22" height="26" rx="11" fill="currentColor"/><circle cy="-57" r="15" fill="currentColor"/></g>
+        </defs>
+        <circle cx="365" cy="340" r="330" fill="url(#halo)"/>
+        <ellipse cx="353" cy="619" rx="284" ry="47" fill="#dce7de" opacity=".6"/>
+        <path d="M32 625 365 470 682 619M80 652l535-249M168 690 665 459" fill="none" stroke="#e3eae1"/>
+        <g filter="url(#room-shadow)"><use href="#room" transform="translate(15 390) scale(1.12)"/><use href="#cover" transform="translate(276 479) scale(1.05)"/></g>
+        <path d="M149 558q86 77 182 28t111-84" fill="none" stroke="#68aa91" stroke-width="2" stroke-dasharray="5 7"/>
+        <ellipse class="signal" cx="151" cy="550" rx="37" ry="18" fill="none" stroke="#2b8a73" stroke-width="1.5"/>
+        <use href="#pawn" transform="translate(151 550) scale(1.15)" color="#fff" stroke="#cfdbd2" stroke-width=".6"/>
+        <use href="#pawn" transform="translate(450 537) scale(1.04)" color="#24322d"/>
+        <g filter="url(#room-shadow)"><use href="#room" transform="translate(115 240) scale(.94)"/><use href="#cover" transform="translate(337 309) scale(.86)"/></g>
+        <use href="#pawn" transform="translate(279 363) scale(.93)" color="#79549a"/>
+        <path d="m287 355 68 14-41 37Z" fill="#79549a" opacity=".07"/>
+        <use href="#pawn" transform="translate(477 369) scale(.93)" color="#c29c31"/>
+        <g filter="url(#room-shadow)"><use href="#room" transform="translate(205 110) scale(.77)"/><use href="#cover" transform="translate(398 162) scale(.68)"/></g>
+        <use href="#pawn" transform="translate(340 209) scale(.78)" color="#fff" stroke="#cbd7ce" stroke-width=".6"/>
+        <path d="m316 161 52-24v69l-52 24Zm10-5v69m13-75v68m13-74v68" fill="none" stroke="#7e9d8d" stroke-width="2"/>
+        <use href="#pawn" transform="translate(494 219) scale(.76)" color="#ab514a"/>
+        <path d="m592 100 38-18 30 14v442l-38 18-30-14Z" fill="#e2ebe3" stroke="#d1dfd4"/><path d="m622 114 38-18v442l-38 18Z" fill="#c9d9cd"/><path d="m597 258 25 12 31-14m-56 151 25 12 31-14" fill="none" stroke="#fff" stroke-width="4"/>
+        <path d="m608 589 32-15m-44 27 32-15m-44 27 32-15m-44 27 32-15" stroke="#c6d5c9" stroke-width="9"/>
+        <circle cx="595" cy="81" r="4" fill="#096c65"/>
+        <path d="M596 82V37h-94" fill="none" stroke="#b9cabe"/>
+        <text x="498" y="29" text-anchor="end" font-size="10" letter-spacing="2" fill="#536460" font-family="system-ui,sans-serif">DERNIER ESPOIR</text>
+      </svg>
+      <figcaption>Illustration de l’univers · visuel de présentation</figcaption>
+    </figure>
+  </section>
+  <div class="container metrics" aria-label="Le jeu en trois repères"><div class="metric"><strong>60</strong><span>étages à explorer<br>et à infiltrer</span></div><div class="metric"><strong>4</strong><span>types de gardes<br>à observer</span></div><div class="metric"><strong>Local</strong><span>ta progression<br>sur ton appareil</span></div></div>
+  <section class="container section" id="jouer" aria-labelledby="mechanics-title">
+    <div class="section-heading"><div><p class="eyebrow">L’instinct ne suffit pas</p><h2 id="mechanics-title">Observe. Disparais.<br>Libère.</h2></div><p>Chaque étage est une nouvelle situation à comprendre. Les rondes, les obstacles et les pouvoirs dessinent des chemins que la précipitation ne révèle pas.</p></div>
+    <div class="mechanics">
+      <article class="mechanic"><span class="card-index">01 / OBSERVER</span><svg viewBox="0 0 240 150" aria-hidden="true"><path d="M15 128h210M32 128V26h174v102" fill="none" stroke="#d2ddd4" stroke-width="2"/><path d="m161 95-75-49v76Z" fill="#e9eed8"/><rect x="100" y="69" width="35" height="59" rx="3" fill="#e1e8df"/><circle cx="166" cy="67" r="13" fill="#bf9d3b"/><rect x="157" y="82" width="18" height="36" rx="9" fill="#bf9d3b"/><path d="M49 126V88" stroke="#d5e0d6" stroke-width="20" stroke-linecap="round"/><circle cx="49" cy="64" r="15" fill="#f9fbf8" stroke="#d5e0d6"/></svg><h3>Lis leurs rondes.</h3><p>Repère les angles morts. Ralentis, attends le bon passage et laisse un obstacle couper leur regard.</p></article>
+      <article class="mechanic"><span class="card-index">02 / SE FONDRE</span><svg viewBox="0 0 240 150" aria-hidden="true"><path d="m50 129 133-62V17L50 79Z" fill="#e5eee6"/><path d="m50 79 133-62 17 9L67 88Z" fill="#f7faf6"/><ellipse cx="111" cy="116" rx="26" ry="11" fill="none" stroke="#72a991" stroke-dasharray="4 5"/><path d="M111 112V83" stroke="#f9fcf8" stroke-width="18" stroke-linecap="round"/><circle cx="111" cy="61" r="14" fill="#f9fcf8"/><path d="m35 130 146-68" fill="none" stroke="#096c65" stroke-width="1.5"/></svg><h3>Deviens le mur.</h3><p>Fusionne avec les surfaces blanches pour échapper aux regards. Mais le violet reconnaît ta silhouette.</p></article>
+      <article class="mechanic"><span class="card-index">03 / SAUVER</span><svg viewBox="0 0 240 150" aria-hidden="true"><path d="M42 127h155V21H42Z" fill="none" stroke="#d2ddd4" stroke-width="2"/><path d="m149 26 45-12v111l-45 12Z" fill="#dceee6" stroke="#7eaa92"/><circle cx="174" cy="81" r="3" fill="#096c65"/><path d="M95 125V88" stroke="#e5ede4" stroke-width="21" stroke-linecap="round"/><circle cx="95" cy="61" r="16" fill="#f9fbf8" stroke="#d3dfd4"/><path d="m54 36 5 5 11-13" fill="none" stroke="#096c65" stroke-width="2"/></svg><h3>Ouvre le chemin.</h3><p>Résous les mécanismes, change de pouvoir et libère les captifs avant de poursuivre ton ascension.</p></article>
+    </div>
+  </section>
+  <section class="container story-band" aria-labelledby="story-title"><div><p class="eyebrow">Un monde sans visage</p><h2 id="story-title">Tout est blanc.<br>Le danger, lui,<br>a ses couleurs.</h2></div><div><p>Une communauté paisible. Une armée venue la capturer. Un seul habitant resté libre. Derrière la simplicité du décor, chaque couleur impose une autre manière de se cacher.</p><div class="guard-list" aria-label="Les types de gardes"><span class="guard-tag"><i style="--guard:#24322d" aria-hidden="true"></i>Noir · patrouille</span><span class="guard-tag"><i style="--guard:#c29c31" aria-hidden="true"></i>Jaune · éclaireur</span><span class="guard-tag"><i style="--guard:#ab514a" aria-hidden="true"></i>Rouge · tireur</span><span class="guard-tag"><i style="--guard:#79549a" aria-hidden="true"></i>Violet · détecteur</span></div></div></section>
+  <section class="container section" aria-labelledby="care-title"><div class="section-heading"><div><p class="eyebrow">L’essentiel, simplement</p><h2 id="care-title">Ton aventure.<br>Tes repères.</h2></div><p>Le jeu fonctionne hors connexion et conserve sa progression sur ton appareil. Les informations utiles restent accessibles ici.</p></div><div class="care-grid"><article class="care-card"><div class="care-icon" aria-hidden="true">◌</div><h3>Ta vie privée</h3><p>Comprendre les données locales du jeu, le fonctionnement de ce site et les échanges avec le support.</p><a href="privacy.html">Lire la confidentialité <span aria-hidden="true">↗</span></a></article><article class="care-card"><div class="care-icon" aria-hidden="true">↺</div><h3>Le contrôle de tes données</h3><p>Aucun compte à créer. Tu peux effacer la progression et les réglages enregistrés sur ton appareil.</p><a href="delete-account.html">Comment effacer mes données <span aria-hidden="true">↗</span></a></article><article class="care-card"><div class="care-icon" aria-hidden="true">↗</div><h3>Besoin d’un coup de main ?</h3><p>Un problème technique, une question sur le jeu ou une demande concernant tes données : écris-nous.</p><a href="support.html">Contacter le support <span aria-hidden="true">↗</span></a></article></div></section>
+</main>
+<footer class="site-footer"><div class="container"><div class="footer-top"><a class="brand" href="index.html">WHITE<span>WORLD</span></a><nav class="footer-links" aria-label="Liens de pied de page"><a href="privacy.html">Confidentialité</a><a href="delete-account.html">Suppression des données</a><a href="support.html">Support</a></nav></div><div class="footer-bottom"><p>© 2026 développement-solution · White World</p><p>Développement et édition : développement-solution<br><a href="mailto:olivier@developpement-solution.fr">olivier@developpement-solution.fr</a></p></div></div></footer>
+</body>
+</html>
